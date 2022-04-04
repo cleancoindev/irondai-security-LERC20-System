@@ -123,20 +123,20 @@ contract Staking is Ownable, ReentrancyGuard {
     address[] private activeAccounts;   //Store both staker and referer address
 
 
-    uint256 private constant _DECIMALS = 18;
+    uint256 private constant _DECIMALS = 1;
 
     uint256 private constant _INTEREST_PERIOD = 1 days;    //One Month
     uint256 private constant _INTEREST_VALUE = 333;    //0.333% per day
 
-    uint256 private constant _PENALTY_VALUE = 20;    //20% of the total stake
+    uint256 private constant _PENALTY_VALUE = 10;    //20% of the total stake
 
 
 
     uint256 private constant _MIN_STAKE_AMOUNT = 100 * (10**_DECIMALS);
 
-    uint256 private constant _MAX_STAKE_AMOUNT = 100000 * (10**_DECIMALS);
+    uint256 private constant _MAX_STAKE_AMOUNT = 1000 * (10**_DECIMALS);
 
-    uint private constant _REFERALL_REWARD = 333; //0.333% per day
+    uint private constant _REFERALL_REWARD = 111; //0.333% per day
 
     uint256 private constant _MAX_TOKEN_SUPPLY_LIMIT =     50000000 * (10**_DECIMALS);
     uint256 private constant _MIDTERM_TOKEN_SUPPLY_LIMIT = 40000000 * (10**_DECIMALS);
