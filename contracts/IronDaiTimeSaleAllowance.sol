@@ -7,7 +7,7 @@ import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
 
-contract BITNCrowdsaleAllowance is Ownable, AllowanceCrowdsale{
+contract IronDaiTimeSaleAllowance is Ownable, AllowanceCrowdsale{
 
     uint private customRate;
 
