@@ -1,5 +1,5 @@
 # ERC20 Staking Machine
-Dapp that implements a "fake-stake" mechanism on any ERC20 token. The code is written specifically for a fixed-supply ERC20 token, but it can be easily extended also to ERC20 mintable token.
+Dapp that implements a "time-stake" mechanism on any ERC20 token. The code is written specifically for a fixed-supply ERC20 token, but it can be easily extended also to ERC20 mintable token.
 
 A demo of the Dapp can be found here ([demo](https://gr3yc4t.github.io/ERC20-Staking-Machine/client/build/index.html))
 
